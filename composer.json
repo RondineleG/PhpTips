@@ -1,12 +1,29 @@
 {
-  "name": "RondineleG/package_name",
-  "description": "Learning about composer",
-  "minimum-stability": "stable",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Rondinele Guimarães",
-      "email": "rondineleg@outlook.com"
+    "name": "RondineleG/LearnigComposer",
+    "description": "Learning about composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Rondinele Guimarães",
+        "email": "rondineleg@outlook.com",
+        "role": "Developer"
+    }],
+
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+
+        },
+
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "~6.1.*"
     }
-  ]
 }
