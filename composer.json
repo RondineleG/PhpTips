@@ -1,0 +1,12 @@
+{
+  "name": "RondineleG/package_name",
+  "description": "Learning about composer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rondinele Guimarães",
+      "email": "rondineleg@outlook.com"
+    }
+  ]
+}
