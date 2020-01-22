@@ -15,15 +15,14 @@
 
     "autoload": {
         "psr-4": {
-            "src\\": "src/"
+            "src\\": "/src/"
 
         },
-
         "files": [
-            "src/Config.php"
+            "/src/Config.php"
         ]
     },
     "require": {
-        "phpmailer/phpmailer": "~6.1.*"
+        "phpmailer/phpmailer": "~6.1"
     }
 }
