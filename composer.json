@@ -15,7 +15,7 @@
 
     "autoload": {
         "psr-4": {
-            "Source\\": "/src/"
+            "src\\": "/src/"
 
         },
         "files": [
