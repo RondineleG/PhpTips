@@ -1,5 +1,5 @@
 {
-    "name": "RondineleG/LearnigComposer",
+    "name": "RondineleG/phptips",
     "description": "Learning about composer",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -15,14 +15,14 @@
 
     "autoload": {
         "psr-4": {
-            "src\\": "/src/"
+            "Source\\": "/src/"
 
         },
         "files": [
-            "/src/Config.php"
+            "src/Config.php"
         ]
     },
     "require": {
-        "phpmailer/phpmailer": "~6.1"
+        "coffeecode/datalayer": "1.1.2"
     }
 }
